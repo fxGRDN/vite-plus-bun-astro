@@ -1,0 +1,29 @@
+{
+  "name": "solar-satellite",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx --bun astro dev",
+    "build": "bunx --bun astro build",
+    "preview": "bunx --bun astro preview",
+    "astro": "bunx --bun astro",
+    "check": "bunx --bun vp check",
+    "test": "bunx --bun vp test",
+    "lint": "bunx --bun vp lint",
+    "fmt": "bunx --bun vp fmt"
+  },
+  "dependencies": {
+    "astro": "^7.3.8"
+  },
+  "devDependencies": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.2.0",
+    "vite-plus": "1.2.0"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.2.0"
+  },
+  "engines": {
+    "bun": ">=1.4.2"
+  },
+  "packageManager": "bun@1.4.2"
+}
